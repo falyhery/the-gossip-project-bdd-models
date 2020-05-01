@@ -1,5 +1,7 @@
 # README
 
+![Alt Text](https://github.com/falyhery/the-gossip-project-bdd-models/blob/master/lib/assets/gossip_project_erd_bdd.png)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
