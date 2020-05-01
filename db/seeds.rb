@@ -8,20 +8,20 @@
 
 require 'faker'
 
-# 10.times do
-#   user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.first_name, email: Faker::Internet.email, age: Faker::Number.number(digits: 2) )
-# end
-# puts "10 utilisateurs ont été générés"
+10.times do
+  user = User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.first_name, email: Faker::Internet.email, age: Faker::Number.number(digits: 2) )
+end
+puts "10 utilisateurs ont été générés"
 
-# 10.times do 
-#     city = City.create!(name: Faker::Address.city, zip_code: Faker::Address.zip_code)
-# end
-# puts "10 villes ont été générées"
+10.times do 
+    city = City.create!(name: Faker::Address.city, zip_code: Faker::Address.zip_code)
+end
+puts "10 villes ont été générées"
 
-# 20.times do
-#     gossip = Gossip.create!(title: Faker::Lorem.word, content: Faker::Lorem.sentence)
-# end
-# puts "20 gossips ont été générés"
+20.times do
+    gossip = Gossip.create!(title: Faker::Lorem.word, content: Faker::Lorem.sentence)
+end
+puts "20 gossips ont été générés"
 
 john = User.create
 alex = User.create
